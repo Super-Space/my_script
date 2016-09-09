@@ -4,7 +4,7 @@ import subprocess as sp
 import os
 import sys
 import time
-import serial
+#import serial
 
 def flash_build():
 	flash_command = (
@@ -53,3 +53,4 @@ if __name__ == '__main__':
 	#flash_build()
 	#sp.Popen ('adb wait-for-devices',shell=True)
 	#sp.call ('adb devices',shell=True)
+	os.system("ls")
