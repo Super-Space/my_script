@@ -48,7 +48,6 @@ def open_one_file(FileName):
 
 
 
-
 if __name__ == '__main__':
 	#flash_build()
 	#sp.Popen ('adb wait-for-devices',shell=True)
